@@ -1,0 +1,125 @@
+/* # */
+/* # */
+/* # */
+/* # */
+/* # */
+/* # */
+.modalBuyTovarActive {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+/* # */
+/* # */
+.modalBuyTovar {
+  opacity: 0;
+  visibility: hidden;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: ease 0.4s;
+}
+
+/* # */
+/* # */
+/* # */
+/* # */
+/* # */
+
+.wrapNftSlide {
+  // border: 1px solid blue;
+  margin: 0 auto;
+  text-align: center;
+
+  // @media only screen and (max-width: 639px) {
+  //   display: none;
+  // }
+
+  .wrapNftSlide .nftSlide {
+    // border: 1px solid red;
+    width: 70%;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+/* # */
+// #
+// #
+// #
+// #
+// #
+// левое мобильное меню
+.leftNavActive {
+  transform: translateX(0%) !important;
+  transition: ease 0.4s !important;
+}
+.leftNav {
+  transform: translateX(-100%);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: ease 0.2s;
+}
+
+//
+//
+//
+//
+//
+//
+//gift
+
+.modalGiftActive {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+/* # */
+/* # */
+.modalGift {
+  opacity: 0;
+  visibility: hidden;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: ease 0.4s;
+}
+
+//
+//
+//
+//
+//
+//
+//nftToken
+
+.modalNftTokenActive {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+/* # */
+/* # */
+.modalNftToken {
+  opacity: 0;
+  visibility: hidden;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: ease 0.4s;
+}

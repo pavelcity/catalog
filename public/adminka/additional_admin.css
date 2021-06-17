@@ -1,0 +1,20 @@
+body {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.create_btn_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-input {
+  border: 1px solid red;
+  margin-bottom: 0px;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+}
