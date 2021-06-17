@@ -17,13 +17,13 @@ class UserSeeder extends Seeder
         DB::table('users')->insert([
 					[
 						'name' => 'Супер-админ',
-						'email' => 'suadmin@me.me',
-						'password' => bcrypt('778880000')
+						'email' => '',
+						'password' => bcrypt('')
 					],
 					[
 						'name' => 'Менеджер',
-						'email' => 'watch@me.me',
-						'password' => bcrypt('770055')
+						'email' => ',
+						'password' => bcrypt('')
 					]
 				]);
     }
