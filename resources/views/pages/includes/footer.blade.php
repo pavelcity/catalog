@@ -144,7 +144,3 @@
 
 
 
-<a href="https://vjvgroup.ru/" target="_blank" class="bg-white mx-auto flex py-10 items-center justify-center">
-	<p class="w-auto text-vjvbrand hover:text-gray-800 transition inline-block mr-4 font-light">Разработано IT-компанией VJV Group</p>
-	<img class="w-10 hover:translate-x-1 transform transition" src="{{ asset('img/logo-vjv.svg') }}" alt="">
-</a>

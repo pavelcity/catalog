@@ -7,7 +7,7 @@
 				</div>
 -->
 				<div>
-					<h4 class="logo-text">Юсуповstore</h4>
+					<h4 class="logo-text">Админка</h4>
 				</div>
 				<a href="javascript:;" class="toggle-btn ml-auto"> <i class="bx bx-menu"></i>
 				</a>
